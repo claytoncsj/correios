@@ -14,7 +14,7 @@ var app = new Vue({
           self.city = "";
           $(".error").addClass("no");
         } else {
-          self.city = result.logradouro +", "+result.bairro+ " - "+ result.localidade + "/" + result.uf;
+          self.city = result.logradouro +" "+result.bairro+ "  "+ result.localidade + "/" + result.uf;
           $(".display").addClass("animated fadeInDown");
         }
         console.log(result);
